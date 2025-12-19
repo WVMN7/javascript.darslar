@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Series DB</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main class="promo">
+    <div class="promo__content">
+      <div class="promo__bg">
+        <div class="promo__genre">DRAMA</div>
+        <div class="promo__title">BEST EARTH</div>
+        <div class="promo__descr">
+          THE STORY OF A MAN WHO SURVIVED ON AN ALIEN PLANET ALONE
+        </div>
+        <div class="promo__ratings">
+          <span>IMDb: 8.0</span>
+          <span>Movie star: 7.7</span>
+        </div>
+      </div>
+      <div class="promo__interactive">
+        <div>
+          <div class="promo__interactive-title">RECENT SERIES</div>
+          <ul class="promo__interactive-list">
+            <li class="promo__interactive-item">
+              OMAR
+              <div class="delete"></div>
+            </li>
+            <li class="promo__interactive-item">
+              The Final Legacy
+              <div class="delete"></div>
+            </li>
+            <li class="promo__interactive-item">
+              ERTUGRUL
+              <div class="delete"></div>
+            </li>
+            <li class="promo__interactive-item">
+              MAGNIFICENT CENTURY
+              <div class="delete"></div>
+            </li>
+            <li class="promo__interactive-item">
+              GREAT SELJUKS: GUARDIANS...
+              <div class="delete"></div>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <form class="add">
+            <div class="promo__interactive-title">ADD NEW SERIES</div>
+            <span>Name of series</span>
+            <input class="adding__input" type="text" placeholder="What has already been viewed...?" />
+            <span>Make it your favorite?</span>
+            <input type="checkbox" />
+            <span class="yes">Yes!</span>
+            <button>Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="promo__adv">
+      <div class="promo__adv-title">Advertising from sponsors</div>
+      <img src="img/facebook.jpg" alt="some picture" />
+      <img src="img/media.png" alt="some picture" />
+      <img src="img/content_2.jpg" alt="some picture" />
+      <img src="img/content_3.png" alt="some picture" />
+    </div>
+  </main>
+
+  <script src="./js/script.js"></script>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
